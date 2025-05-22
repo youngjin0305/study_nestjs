@@ -54,12 +54,11 @@ $ nest new ./
 $ npm i @prisma/client prisma
 $ npm i -D @types/node
 $ npx prisma init
-```
 
-prisma/schema.prisma설정
-.env에 PostgreSQL 연결정보 추가
-migration 실행 및 Prisma Client 생성
-```bash
+# prisma/schema.prisma설정
+# .env에 PostgreSQL 연결정보 추가
+
+# migration 실행 및 Prisma Client 생성
 $ npx prisma migrate dev --name init
 ```
 
